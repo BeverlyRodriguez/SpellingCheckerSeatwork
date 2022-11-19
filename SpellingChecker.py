@@ -26,7 +26,7 @@ text.focus()
 button = Button(root, text="CHECK", width=15, font=("arial", 20, "bold"), fg="#FAEBD7", bg="#000000", command=spellCheck)
 button.pack()
 
-spell = Label(root, font=("poppins", 20), bg="#FFF0F5", fg="#2F2F4F", border=2)
+spell = Label(root, font=("poppins", 20, "bold"), bg="#FFF0F5", fg="#2F2F4F", border=2)
 spell.place(x=350, y=250)
 
 root.mainloop()
