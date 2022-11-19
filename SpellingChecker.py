@@ -12,11 +12,11 @@ def spellCheck():
     txt = TextBlob(word)
     RightText = str(txt.correct())
 
-    CorrectText = Label(root, text = "CORRECT SPELLING: ", font=("poppins", 20, "bold"), bg="#CDC1C5", fg="black")
+    CorrectText = Label(root, text = "CORRECT SPELLING: ", font=("poppins", 20, "bold"), bg="#483D8B", fg="#E6E6FA")
     CorrectText.place(x=80, y=250)
     spell.config(text=RightText)
 
-heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), fg="#333333") 
+heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), bg="#6E7B8B" fg="#E6E6FA") 
 heading.pack (pady=(50,0))
 
 text = Entry(root, justify="center", width = 15, font=("poppins", 25), bg="#FFF0F5", border=2)
