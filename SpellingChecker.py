@@ -1,3 +1,7 @@
+#SEATWORK ACTIVITY BY BEVERLY ANN L. RODRIGUEZ
+#This program is base on the yt link below.
+#https://youtu.be/g2w4tUIdJu0
+
 import tkinter
 from tkinter import *
 from textblob import TextBlob
