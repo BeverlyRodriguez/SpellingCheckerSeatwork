@@ -29,8 +29,8 @@ button.pack()
 spell = Label(root, font=("poppins", 20, "bold"), bg="#FFF0F5", fg="#2F2F4F", border=2)
 spell.place(x=360, y=250)
 
-name =Label(root, text ="Beverly ", font=("Helvetica", 20, "bold"), bg="#C1C1FF", fg="#2F2F4F") 
-name.pack (pady=(50,0))
+name =Label(root, text ="Programmed by: Beverly Ann Rodriguez", font=("Helvetica", 10, "bold", "italic"), bg="#C1C1FF", fg="#2F2F4F") 
+name.place(x=230, y=350)
 
 
 root.mainloop()
