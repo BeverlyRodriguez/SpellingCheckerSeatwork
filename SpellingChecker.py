@@ -13,7 +13,7 @@ def spellCheck():
     RightText = str(txt.correct())
 
     CorrectText = Label(root, text = "CORRECT SPELLING: ", font=("poppins", 20, "bold"), bg="#CDC1C5", fg="black")
-    CorrectText.place(x=100, y=250)
+    CorrectText.place(x=80, y=250)
     spell.config(text=RightText)
 
 heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), fg="#333333") 
@@ -27,6 +27,6 @@ button = Button(root, text="CHECK", width=15, font=("arial", 20, "bold"), fg="#F
 button.pack()
 
 spell = Label(root, font=("poppins", 20), bg="#FFF0F5", fg="#CDC9A5")
-spell.place(x=350, y=250)
+spell.place(x=450, y=250)
 
 root.mainloop()
