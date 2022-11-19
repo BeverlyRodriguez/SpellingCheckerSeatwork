@@ -1,5 +1,6 @@
 #SEATWORK ACTIVITY BY BEVERLY ANN L. RODRIGUEZ
-#This program is base on the yt link below.
+#Data Structure and Algorithm - Saturday
+#This program is based on the yt link below.
 #https://youtu.be/g2w4tUIdJu0
 
 import tkinter
