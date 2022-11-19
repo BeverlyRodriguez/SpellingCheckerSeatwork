@@ -16,7 +16,7 @@ def spellCheck():
     CorrectText.place(x=80, y=250)
     spell.config(text=RightText)
 
-heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), bg="#6E7B8B" fg="#E6E6FA") 
+heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), bg="#6E7B8B", fg="#E6E6FA") 
 heading.pack (pady=(50,0))
 
 text = Entry(root, justify="center", width = 15, font=("poppins", 25), bg="#FFF0F5", border=2)
