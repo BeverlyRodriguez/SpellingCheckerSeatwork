@@ -5,14 +5,14 @@ from textblob import TextBlob
 root = Tk()
 root.title("Spelling Checker")
 root.geometry("700x400")
-root.config(background="#E6E6FA")
+root.config(background="#7979CD")
 
 def spellCheck():
     word = text.get()
     txt = TextBlob(word)
     RightText = str(txt.correct())
 
-    CorrectText = Label(root, text = "CORRECT SPELLING: ", font=("poppins", 20, "bold"), bg="#483D8B", fg="#E6E6FA")
+    CorrectText = Label(root, text = "Correct Spelling: ", font=("poppins", 20, "bold"), bg="#C1C1FF", fg="#2F2F4F")
     CorrectText.place(x=80, y=250)
     spell.config(text=RightText)
 
