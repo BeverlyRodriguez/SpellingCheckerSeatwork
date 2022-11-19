@@ -23,7 +23,7 @@ text = Entry(root, justify="center", width = 15, font=("poppins", 25), bg="#FFF0
 text.pack(pady=10)
 text.focus()
 
-button = Button(root, text="CHECK", width=15, font=("arial", 20, "bold"), fg="#FAEBD7", bg="#8B8386")
+button = Button(root, text="CHECK", width=15, font=("arial", 20, "bold"), fg="#FAEBD7", bg="#8B8386", command=spellCheck)
 button.pack()
 
 spell = Label(root, font=("poppins", 20), bg="#FFF0F5", fg="#CDC9A5")
