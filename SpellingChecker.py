@@ -10,11 +10,11 @@ root.config(background="#E6E6FA")
 def spellCheck():
     word = text.get()
     txt = TextBlob(word)
-    CorrectText = str(txt.CorractText())
+    RightText = str(txt.correct())
 
-    RightText = Label(root, text = "Check Spelling", font=("Helvetica", 30, "bold"), bg="#CDC1C5", fg="black")
-    RightText.place(x=100, y=250)
-    spell.config(text=CorrectText)
+    CorrectText = Label(root, text = "CORRECT SPELLING: ", font=("poppins", 20, "bold"), bg="#CDC1C5", fg="black")
+    CorrectText.place(x=100, y=250)
+    spell.config(text=RightText)
 
 heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), fg="#333333") 
 heading.pack (pady=(50,0))
@@ -28,4 +28,5 @@ button.pack()
 
 spell = Label(root, font=("poppins", 20), bg="#FFF0F5", fg="#CDC9A5")
 spell.place(x=350, y=250)
+
 root.mainloop()
