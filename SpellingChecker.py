@@ -27,6 +27,12 @@ button = Button(root, text="CHECK", width=15, font=("arial", 20, "bold"), fg="#F
 button.pack()
 
 spell = Label(root, font=("poppins", 20, "bold"), bg="#FFF0F5", fg="#2F2F4F", border=2)
-spell.place(x=350, y=250)
+spell.place(x=360, y=250)
+
+heading =Label(root, text ="Check Spelling", font=("Helvetica", 30, "bold"), bg="#C1C1FF", fg="#2F2F4F") 
+heading.pack (pady=(50,0))
+
+name= Label(root, text ="Programmed by: Beverly Ann Rodriguez", font=("Times New Roman", 8, "bold","italic"), fg="#C1C1FF")
+name.place(x=300, y=600)
 
 root.mainloop()
